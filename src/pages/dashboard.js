@@ -1,4 +1,4 @@
-const Homepage = () => {
+const Dashboard = () => {
   return (
     <div>
       <p>this is homepage</p>
@@ -6,4 +6,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Dashboard
