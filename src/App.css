@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
+
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bg-app {
+  background-image: url('https://images.unsplash.com/photo-1589070127509-ea788341cc5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80');
+}
+.loader-wrapper {
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loder-crcil {
+    box-shadow: 3px 0 0px #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  animation: loader 1s linear infinite;
+}
+
+.text {
+    box-shadow: 0 0 2px #afaaaa;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-family: fantasy;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+@keyframes loader {
+  0% {transform: rotate(0deg);}
+    0% {transform: rotate(360deg);}
+}
+
+
