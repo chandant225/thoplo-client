@@ -25,7 +25,7 @@ const Signup = () => {
       setloading(true);
       event.preventDefault();
       const response = await axios.post(
-        `${process.env.REACT_APP_BASE_API_URL}/api/user/signup/`,
+        `${process.env.REACT_APP_BASE_API_URL}/api/user/signup`,
         formData
       );
       if (response.data.message) {

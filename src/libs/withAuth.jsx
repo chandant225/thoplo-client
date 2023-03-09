@@ -9,7 +9,7 @@ const withAuth = async () => {
     }
     if(token){
       const response = await axios.get(
-        "http://localhost:3001/api/user/check-auth",
+        `${process.env.REACT_APP_BASE_API_URL}/api/user/check-auth`,
         {
           headers: {
             "user-token": token,
